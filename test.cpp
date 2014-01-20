@@ -9,6 +9,8 @@ void areEquals(double expected, double actual)
 int main()
 {
 	areEquals(4,add(2,2));
+	areEquals(6,add(4,4));
+	areEquals(27,pow(3,3));
 	std::cout<<"Test ends"<<std::endl;
 	return 0;
 }
